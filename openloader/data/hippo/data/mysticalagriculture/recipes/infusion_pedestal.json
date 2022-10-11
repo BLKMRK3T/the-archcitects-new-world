@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" G ",
+		"CSC",
+		" S "
+	],
+	"key": {
+		"S": {
+			"tag": "forge:stone"
+		},
+		"C": {
+			"item": "minecraft:red_carpet"
+		},
+		"G": {
+			"tag": "forge:ingots/gold"
+		}
+	},
+	"result": {
+		"item": "mysticalagriculture:infusion_pedestal"
+	}
+}

@@ -1,0 +1,258 @@
+{
+	id: "6CDEC3AFEF693797"
+	group: "61DAF4AD0B60C991"
+	order_index: 0
+	filename: "a_journey_begins"
+	title: "A Journey Begins"
+	icon: "byg:maple_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Where am I?"
+			x: 0.0d
+			y: 0.0d
+			description: ["After being whisked away from your current world by the architect, you awake in a strange land. At least they have seemed to have given you some food. Might as well take a look at what is around, and prepare for survival."]
+			hide_dependency_lines: false
+			dependency_requirement: "one_completed"
+			id: "1A5AD27FD623F45A"
+			tasks: [{
+				id: "620AC0C9B99C8B3F"
+				type: "checkmark"
+				title: "Where am I?"
+			}]
+			rewards: [{
+				id: "4EA46492354EEAEC"
+				type: "item"
+				item: "pamhc2foodextended:steakfajitaitem"
+				count: 32
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["After a bit of hard work, you have gained some iron, wether it be from mining, or a loot chest Now that you can make some better tools the adventure truly can begin!"]
+			hide_dependency_lines: false
+			dependencies: ["1A5AD27FD623F45A"]
+			hide: true
+			id: "48868247430C299B"
+			tasks: [{
+				id: "79041100A0AA9880"
+				type: "advancement"
+				title: "A Good Start"
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4DE57A90DF951C11"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "twilightforest:thorn_rose"
+			x: 0.0d
+			y: -3.0d
+			description: ["Minecraft Comes Alive is a mod which breathes life into the previously Squidward esq villagers. The now each have their own traits and personalities. Try talking to a few and building relationships. You can even get married and have kids! If playing this on multiplayer you can use a command to propose to another player."]
+			hide_dependency_lines: false
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "0C6C0A49EB09FE3F"
+			tasks: [{
+				id: "4FDBFCC7E4DC59F3"
+				type: "checkmark"
+				title: "Minecraft Comes Alive"
+			}]
+			rewards: [{
+				id: "308708C21CD85851"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["0C6C0A49EB09FE3F"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "30DD966AF57F532D"
+			tasks: [{
+				id: "2406D5A4823BA5B1"
+				type: "advancement"
+				title: "What did I do?"
+				advancement: "tombstone:adventure/neighborhood_brawl"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["0C6C0A49EB09FE3F"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "5D782DCC966EE833"
+			tasks: [{
+				id: "6132E86F3E971CEC"
+				type: "advancement"
+				title: "A New Friend!"
+				advancement: "mca:friend"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["0C6C0A49EB09FE3F"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "3DC791E58F7375E0"
+			tasks: [{
+				id: "0E330569AF39A928"
+				type: "advancement"
+				title: "Just Married!"
+				icon: "mca:engagement_ring_rg"
+				advancement: "mca:marriage"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["3DC791E58F7375E0"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1B8D735A46D23B68"
+			tasks: [{
+				id: "304CB1881208B367"
+				type: "advancement"
+				title: "Offspring"
+				icon: "mca:baby_boy"
+				advancement: "mca:baby"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["1B8D735A46D23B68"]
+			hide: true
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1E7272E41A86830E"
+			tasks: [{
+				id: "55638F722B37BC0D"
+				type: "advancement"
+				title: "But WHY..."
+				icon: "minecraft:skeleton_skull"
+				advancement: "mca:baby_smelted"
+				criterion: ""
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 2.0d
+			description: ["Finally! A proper set of gear. Now maybe you could take on one of those dungeons you keep seeing?"]
+			dependencies: ["48868247430C299B"]
+			id: "61A86FD47A3BA07F"
+			tasks: [
+				{
+					id: "60EAECBB774008D5"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "140F90D5D4A01633"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "089E3F8E4FB56EE9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AE85DE14F74A24F"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3298D561309E518F"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2192441514DC1259"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10BF23BF1C85F37E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4C1027E51D87C985"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7843404814E276A6"
+					type: "item"
+					item: "pamhc2foodextended:footlongitem"
+					count: 16
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "131",
+    "212"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/iron"
+    },
+    "2": {
+      "tag": "forge:dyes/black"
+    },
+    "3": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result": {
+    "item": "swem:half_barrel_black",
+    "count": 2
+  }
+}

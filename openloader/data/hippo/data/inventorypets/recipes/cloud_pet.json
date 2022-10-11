@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "inventorypets:pet_cloud"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "minecraft:nether_star"
+    },
+    "F": {
+      "item": "minecraft:elytra"
+    },
+    "G": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:quartz"
+    }
+  }
+}

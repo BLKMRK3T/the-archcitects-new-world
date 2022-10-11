@@ -1,0 +1,12 @@
+#00A byg:cypress_swamplands
+#4F9 minecraft:dark_forest
+#074 byg:ebony_woods
+#294 byg:enchanted_forest
+#4E7 byg:enchanted_forest_hills
+#55C byg:enchanted_grove
+#010 minecraft:forest
+#678 byg:fresh_water_lake
+#5FF minecraft:river
+#3B2 byg:skyris_highlands
+#1A0 byg:skyris_peaks
+#3F8 byg:skyris_steeps

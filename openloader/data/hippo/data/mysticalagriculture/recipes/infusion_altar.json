@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GCG",
+		"CBC",
+		"SSS"
+	],
+	"key": {
+		"S": {
+			"tag": "forge:stone"
+		},
+		"C": {
+			"item": "minecraft:red_carpet"
+		},
+		"G": {
+			"item": "minecraft:nether_star"
+		},
+		"B": {
+			"tag": "forge:storage_blocks/gold"
+		}
+	},
+	"result": {
+		"item": "mysticalagriculture:infusion_altar"
+	}
+}

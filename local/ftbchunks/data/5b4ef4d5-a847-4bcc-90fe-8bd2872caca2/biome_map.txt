@@ -1,0 +1,9 @@
+#556 minecraft:beach
+#3DE minecraft:deep_ocean
+#4F1 minecraft:ocean
+#4AA byg:rainbow_beach
+#5FF minecraft:river
+#740 byg:seasonal_deciduous_clearing
+#3A8 byg:seasonal_deciduous_forest
+#6FB byg:seasonal_deciduous_forest_hills
+#2F3 byg:tropical_islands

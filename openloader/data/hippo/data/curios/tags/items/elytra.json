@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:elytra",
+    "tconstruct:slime_chestplate",
+    "mekanism:hdpe_elytra",
+    "alexsmobs:tarantula_hawk_elytra"
+  ]
+}

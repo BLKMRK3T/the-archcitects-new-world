@@ -1,0 +1,28 @@
+{
+	tabs: [{
+		title: "Mekanism"
+		icon: "mekanism:painting_machine"
+		entries: [
+			{
+				item: "mekanism:basic_tier_installer"
+				buy: 1L
+			}
+			{
+				item: "mekanism:advanced_tier_installer"
+				buy: 1L
+			}
+			{
+				item: "mekanism:elite_tier_installer"
+				buy: 1L
+			}
+			{
+				item: "mekanism:ultimate_tier_installer"
+				buy: 1L
+			}
+			{
+				item: "mekanism:cardboard_box"
+				buy: 1L
+			}
+		]
+	}]
+}

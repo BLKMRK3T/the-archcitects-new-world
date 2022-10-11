@@ -1,0 +1,6 @@
+#52B53D minecraft:air
+#058353 minecraft:cobblestone
+#9C12B8 miniutilities:ender_ore
+#3B27E5 create:natural_scoria
+#E3B6A5 emendatusenigmatica:redstone_ore
+#DC3458 minecraft:stone

@@ -1,0 +1,4 @@
+#461 byg:blue_taiga
+#379 minecraft:mountains
+#5FF minecraft:river
+#306 minecraft:wooded_mountains

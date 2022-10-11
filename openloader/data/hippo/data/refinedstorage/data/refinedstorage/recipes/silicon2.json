@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:silicon"
+     },
+    ]
+  "result": {
+    "item": "refinedstorage:silicon",
+    "count": 1
+  }
+}
